@@ -110,7 +110,7 @@ g.add((person.Raul, RDF.type, ontology.InterimAssociateProfessor))
 g.add((person.Asun, RDF.type, ontology.FullProfessor))
 g.add((person.Oscar, RDF.type, ontology.AssociateProfessor))
 
-çg.add((person.Asun, ontology.hasColleague, person.Raul))
+g.add((person.Asun, ontology.hasColleague, person.Raul))
 g.add((person.Asun, ontology.hasHomePage, Literal("http://oeg.fi.upm.es/", datatype=XSD.string)))
 g.add((person.Oscar, ontology.hasColleague, person.Asun))
 g.add((person.Oscar, ontology.hasName, Literal("Óscar Corcho García", datatype=XSD.string)))
